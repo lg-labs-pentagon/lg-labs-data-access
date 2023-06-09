@@ -6,11 +6,11 @@
 
   <groupId>com.labs.lg.pentagon</groupId>
   <artifactId>lg-labs-data-access</artifactId>
-  <version>1.0.0-alpha.2</version>
+  <version>1.0.0-alpha.3</version>
   <packaging>jar</packaging>
 
   <properties>
-    <postgresql.version>42.6.0</postgresql.version>
+    <lg-labs-postgresql.version>42.6.0</lg-labs-postgresql.version>
     <spring-boot-starter-data-jpa.version>2.6.7</spring-boot-starter-data-jpa.version>
   </properties>
 
@@ -23,7 +23,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>${postgresql.version}</version>
+      <version>${lg-labs-postgresql.version}</version>
     </dependency>
   </dependencies>
 
