@@ -7,7 +7,7 @@
   <groupId>com.labs.lg.pentagon</groupId>
   <artifactId>lg-labs-data-access</artifactId>
   <version>1.0.0-alpha</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <properties>
     <postgresql.version>42.6.0</postgresql.version>

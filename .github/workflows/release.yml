@@ -1,0 +1,19 @@
+name: release
+
+on:
+  workflow_run:
+    workflows: ['labeler']
+    branches: [ 'hotfix/*' ]
+    types: [ completed ]
+
+env:
+  REF: ${{ github.ref }}
+
+jobs:
+  validation:
+    name: release
+    runs-on: ubuntu-latest
+    steps:
+      # Check out current repository
+      - name: Fetch Sources
+        uses: actions/checkout@v3
