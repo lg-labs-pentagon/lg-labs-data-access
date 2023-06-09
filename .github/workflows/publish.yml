@@ -1,6 +1,7 @@
 name: mvn package
 
 on:
+  push:
   release:
     types: [created]
 
